@@ -1,0 +1,65 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --backgroundsdark-cards: rgba(13, 12, 15, 1);
+  --backgroundsdark-mode: rgba(21, 23, 24, 1);
+  --backgroundsdark-theme: rgba(30, 31, 35, 1);
+  --black: rgba(0, 0, 0, 1);
+  --chart-titles-chart-title-l-font-family: "Mulish-Bold", Helvetica;
+  --chart-titles-chart-title-l-font-size: 18px;
+  --chart-titles-chart-title-l-font-style: normal;
+  --chart-titles-chart-title-l-font-weight: 700;
+  --chart-titles-chart-title-l-letter-spacing: 0px;
+  --chart-titles-chart-title-l-line-height: 26px;
+  --chart-titles-chart-title-m-font-family: "Mulish-SemiBold", Helvetica;
+  --chart-titles-chart-title-m-font-size: 16px;
+  --chart-titles-chart-title-m-font-style: normal;
+  --chart-titles-chart-title-m-font-weight: 600;
+  --chart-titles-chart-title-m-letter-spacing: 0px;
+  --chart-titles-chart-title-m-line-height: 22px;
+  --chart-titles-chart-title-s-font-family: "Mulish-SemiBold", Helvetica;
+  --chart-titles-chart-title-s-font-size: 12px;
+  --chart-titles-chart-title-s-font-style: normal;
+  --chart-titles-chart-title-s-font-weight: 600;
+  --chart-titles-chart-title-s-letter-spacing: 0px;
+  --chart-titles-chart-title-s-line-height: 22px;
+  --dark-gray: rgba(181, 183, 185, 1);
+  --dark-themegreen: rgba(43, 235, 200, 1);
+  --dark-themeorange: rgba(255, 150, 39, 1);
+  --dark-themepurple: rgba(105, 75, 219, 1);
+  --dark-themered: rgba(255, 119, 119, 1);
+  --dark-themeyellow: rgba(249, 255, 94, 1);
+  --gray: rgba(236, 236, 236, 1);
+  --grayscale-black: rgba(37, 39, 51, 1);
+  --light-themedark-green: rgba(6, 170, 141, 1);
+  --light-themedark-orange: rgba(232, 111, 0, 1);
+  --light-themedark-purple: rgba(60, 30, 173, 1);
+  --light-themedark-red: rgba(204, 72, 72, 1);
+  --light-themedark-yellow: rgba(243, 197, 34, 1);
+  --text-large-text-font-family: "Mulish-Regular", Helvetica;
+  --text-large-text-font-size: 16px;
+  --text-large-text-font-style: normal;
+  --text-large-text-font-weight: 400;
+  --text-large-text-letter-spacing: 0px;
+  --text-large-text-line-height: 22px;
+  --text-medium-text-font-family: "Mulish-Medium", Helvetica;
+  --text-medium-text-font-size: 14px;
+  --text-medium-text-font-style: normal;
+  --text-medium-text-font-weight: 500;
+  --text-medium-text-letter-spacing: 0.20000000298023224px;
+  --text-medium-text-line-height: 20px;
+  --text-small-text-font-family: "Mulish-Regular", Helvetica;
+  --text-small-text-font-size: 12px;
+  --text-small-text-font-style: normal;
+  --text-small-text-font-weight: 400;
+  --text-small-text-letter-spacing: 0px;
+  --text-small-text-line-height: 22px;
+  --white: rgba(255, 255, 255, 1);
+}
